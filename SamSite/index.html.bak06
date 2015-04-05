@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>SammyTheArtist</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="_css/normalize.css">
+        <link rel="stylesheet" href="_css/main.css">
+
+</head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+        <div id="wrapper"> 
+        <header><img src="_img/sammylogo.png" alt="sammy logo">The Artwork of Samantha (Allen) Little<img id="selfPortrait"src="_img/self portrait sm.jpg" alt="Self Portrait"></header>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="commission.html">COMMISSION PRICES</a></li>
+                <li><a href="sale.html">ART FOR SALE</a></li>
+            </ul>
+        </nav>
+        <div class="mainContent">                       
+
+<aside>
+              
+              <p>Hand-drawn or painted portraits can turn favorite photos into priceless heirlooms.  My artwork is inspired by my awe in the creation around me, and I love to capture subjects of almost any kind.  I’ve often had people request drawings or paintings for special occasions like wedding gifts, birthdays, and holidays, or even in memory of someone they love.  The smiles and tears my artwork receives are the most rewarding part of what I love to do.</p>
+            </aside>
+        </div>
+        <footer>
+                <a href="index.html">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="about.html">ABOUT THE ARTIST</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="contact.php">CONTACT</a>
+                <br>PO BOX 280 Prospect,OR 97536
+                <br>Phone:  541.560.4045
+                <br>&copy;SammyTheArtist                     
+        </footer>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src='//www.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/AppalachiaMain.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<meta name="description" content="Map with trail images for the Appalchian Trail" />
+<meta name="keywords" content="Appalachia, Appalachian Trail,hiking, map, images" />
+<meta name="author" content="Ryan Murphy" />
+<title>Appalachian_Trail_Map</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<script type="text/javascript">
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- InstanceEndEditable -->
+<link href="styles/appalachia.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="images/Appalachia_Mountains.jpg" alt="AppalachiaBanner" name="AppalachiaBanner" width="800" height="137" id="Insert_logo" style="" /></a> 
+    </div>
+  <div class="navbar">
+     <ul id="NavBar" class="MenuBarHorizontal">
+        <li><a href="index.html">Home</a>         </li>
+        <li><a href="map.html">Trail Map</a></li>
+        <li><a href="route.html">The Route</a>         </li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+     </ul>
+  </div>
+  <!-- InstanceBeginEditable name="content" -->
+  <div class="content"><h1 class="h1">Trail Map</h1><img src="images/MaineKatahdin.jpg" alt="Trail_Image" name="Trail_Image" width="250" height="172" id="trail_image" /><img src="images/trailmap.jpg" alt="Trail_Map" width="350" height="790" border="0" usemap="#Map" id="trail_map" />
+     <map name="Map" id="Map">
+        <area shape="circle" coords="253,52,46" href="images/MaineKatahdin.jpg" target="_new" alt="Katahdin" onmouseover="MM_swapImage('Trail_Image','','images/MaineKatahdin.jpg',1)" />
+        <area shape="circle" coords="195,187,64" href="images/VermontGreenMountain.jpg" target="_new" alt="Green_Mountain" onmouseover="MM_swapImage('Trail_Image','','images/VermontGreenMountain.jpg',1)" />
+        <area shape="circle" coords="178,336,69" href="images/DelawareWatergap.jpg" target="_new" alt="Watergap" onmouseover="MM_swapImage('Trail_Image','','images/DelawareWatergap.jpg',1)" />
+        <area shape="circle" coords="195,505,75" href="images/VirginiaShenandoah.jpg" target="_new" alt="Shenandoah" onmouseover="MM_swapImage('Trail_Image','','images/VirginiaShenandoah.jpg',1)" />
+        <area shape="circle" coords="78,643,56" href="images/TennesseeCherokee.jpg" target="_new" alt="Cherokee" onmouseover="MM_swapImage('Trail_Image','','images/TennesseeCherokee.jpg',1)" />
+        <area shape="circle" coords="66,735,36" href="images/GeorgiaSpringer.jpg" target="_new" alt="Springer_Mountain" onmouseover="MM_swapImage('Trail_Image','','images/GeorgiaSpringer.jpg',1)" />
+     </map>
+  </div>
+  <!-- InstanceEndEditable --><!-- InstanceBeginEditable name="footer" -->
+  <div class="footer">
+     <p>Last Modified December 1, 2011</p>
+     <p>created by Ryan Murphy</p>
+  </div>
+  <!-- InstanceEndEditable --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("NavBar", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+<!-- InstanceEnd --></html>

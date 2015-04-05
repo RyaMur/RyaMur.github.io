@@ -1,0 +1,521 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+	
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+ */
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Body Styles */
+
+body {
+	background: url(../ImageAssets/mybackground.jpg)top left repeat-x;
+	background-color: #1d1d1d;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.wrapper {
+	background-color: #999;
+	background-color: rgba(255, 255, 255, 0.3);
+	min-height: 100%;
+	width: 800px;
+	margin: 0px auto;
+	text-align: center;
+}
+h1 {
+        color: #072D3D;
+}
+h2 {
+        color: #072D3D;
+}
+
+
+/*Navigation Bar Styles */
+
+nav a {
+	text-decoration: none;
+}
+
+nav.horizontalNAV {
+	margin: 0px auto;
+	width: 800px;
+	
+}
+
+nav.horizontalNAV li {
+   font-size:  95%;
+   font-weight:  bold;
+	float: left;
+	padding: 15px 0px;
+	text-align: center;
+	width: 25%;
+}
+
+nav.horizontalNAV li a {
+	color: #072D3D;
+}
+
+nav.horizontalNAV li a:hover {
+	color: white;
+   padding: 10px 10px;
+	background-color: #072D3D;
+	border-radius: 15px;
+	-webkit-border-radius: 15px 15px 15px 15px;
+	-moz-border-radius: 15px 15px 15px 15px;
+}
+
+/* Bio Message Styles */
+
+aside {
+	background-color: #CCC;
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url(../ImageAssets/ryan_murphy.jpg);
+	background-position: top left;
+	background-repeat: no-repeat;
+	
+	-o-background-size: 45%;
+	-moz-background-size: 45%;
+	-webkit-background-size: 45%;
+	background-size: 45%;
+	
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	
+	clear: left;
+	float: left;
+	width: 250px;
+	margin-top: 40px;
+	margin-left: 15px;
+}
+
+aside h1 {
+	font-family: 
+	font-size: 195%;
+	font-weight: bold;
+	margin: 10px 0px 0px 90px;
+}
+
+aside h2 {
+	font-size: 120%;
+	margin: 0px 0px 10px 70px;
+}
+aside p {
+	font-size: 90%;
+	margin: 40px 02% 20px 15px;
+	text-align: left;
+}
+
+/* News and Events Styles */
+#newsheading {
+	float: left;
+	margin-left: 10%;
+	margin-top: 40px;
+	width: 420px;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+}
+#news {
+	float: left;
+	margin-left: 10%;
+	margin-top: 40px;
+	height: 550px;
+	width: 420px;
+	overflow: auto;
+}
+#news h2 {
+	font-size: 90%;
+	font-weight: bold;
+}
+#news p {
+	font-size: 80%;
+	margin: 15px;
+	text-align: left;
+	}
+
+/* Game List Table Header Styles */
+
+table.gamelist thead {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/* Game List Table Styles */
+
+table.gamelist {
+	border-collapse: collapse;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 100px;
+}
+table.gamelist caption {
+	padding-bottom: 30px;
+	text-align: left;
+}
+table.gamelist th {
+    color: #072D3D;
+    padding: 5px;
+}
+table.gamelist td {
+	text-align: center;
+   color: black;
+   padding: 5px;
+}
+table.gamelist th a {
+	text-decoration: none;
+	color: #072D3D;
+}
+table.gamelist th a:hover {
+	color: white;
+}
+
+/* Review Styles */
+
+#review {
+	clear: left;
+	float: left;
+	margin-top: 40px;
+}
+#review a {
+   text-decoration: none;
+   font-weight:  bold;
+	color:  black;
+}
+#review a:hover {
+	color:  white;
+}
+#review div {
+	padding: 15px 15px 0px 15px;
+	text-align: left;
+}
+#review h2 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-align: left;
+}
+#review p {
+	margin-bottom: 15px;
+	text-align: left;
+}
+#review img {
+   -moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/*Form Styles */
+
+form {
+	margin: auto;
+	margin-top: 100px;
+}
+form h1 {
+	margin-bottom: 15px;
+}
+
+/* Footer Styles */
+
+footer {
+	clear: left;
+	margin-bottom: 5px;
+	margin-top: 500px;
+	width: 100%;
+   color: #072D3D;
+	
+}
+
+footer address {
+	padding-top: 10px;
+	text-align: center;
+}
+footer a {
+	color: #072D3D;
+	text-decoration: none;
+}
+footer a:hover {
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

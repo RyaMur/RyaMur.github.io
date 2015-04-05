@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../styles/appalachia.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="../SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><a href="#"><img src="../images/Appalachia_Mountains.jpg" alt="AppalachiaBanner" name="AppalachiaBanner" width="800" height="137" id="Insert_logo" style="" /></a> 
+    </div>
+  <div class="navbar">
+     <ul id="NavBar" class="MenuBarHorizontal">
+        <li><a href="../index.html">Home</a>         </li>
+        <li><a href="../map.html">Trail Map</a></li>
+        <li><a href="../route.html">The Route</a>         </li>
+        <li><a href="../resources.html">Resources</a></li>
+        <li><a href="../contact.html">Contact Us</a></li>
+     </ul>
+  </div>
+  <!-- TemplateBeginEditable name="content" -->
+  <div class="content"></div>
+  <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="footer" -->
+  <div class="footer">
+     <p>Last Modified</p>
+     <p>created by Ryan Murphy</p>
+  </div>
+  <!-- TemplateEndEditable --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("NavBar", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>

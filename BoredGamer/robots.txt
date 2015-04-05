@@ -1,0 +1,5 @@
+# Domo arigato Mr. Roboto
+User-agent: *
+
+Allow: /
+Disallow: /404.html

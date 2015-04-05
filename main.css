@@ -1,0 +1,67 @@
+﻿
+#letter{
+    margin-top:90px;
+}
+.panel-title{
+    text-align:center;    
+}
+.panel-title a:active,
+.panel-title a:visited,
+.panel-title a:link{
+    color:#222;
+    text-decoration:none;
+}
+#workHistory h4
+#education h4
+#contacts h4{
+    color:#222;
+}
+.panel-title a:hover{
+    color:#5bc0de;
+}
+#website-carousel h3{
+    color:#222;
+}
+#website-carousel li{
+    background-color:#222;
+    border:none;
+}
+#photoshop-carousel h3{
+    color:#222;
+}
+#photoshop-carousel li{
+    background-color:#222;
+    border:none;
+}
+#indesign-carousel h3{
+    color:#222;
+}
+#indesign-carousel li{
+    background-color:#222;
+    border:none;
+}
+#illustrator-carousel h3{
+    color:#222;
+}
+#illustrator-carousel li{
+    background-color:#222;
+    border:none;
+}
+.jumbotron .container a:active,
+.jumbotron .container a:visited,
+.jumbotron .container a:link{
+    color:#222;
+    text-decoration:none;
+}
+.jumbotron .container a:hover{
+    color:#5bc0de;
+}
+#contacts a:active,
+#contacts a:visited,
+#contacts a:link{
+    color:#222;
+    text-decoration:none;
+}
+#contacts a:hover{
+    color:#5bc0de;
+}
